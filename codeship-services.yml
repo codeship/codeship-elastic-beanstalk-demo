@@ -6,6 +6,6 @@ awsdeployment:
   image: codeship/aws-deployment
   encrypted_env_file: aws-deployment.env.encrypted
   environment:
-    - AWS_DEFAULT_REGION=us-west-1
+    - AWS_DEFAULT_REGION=us-west-2
   volumes:
     - ./:/deploy
