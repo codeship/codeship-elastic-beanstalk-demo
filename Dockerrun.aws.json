@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+   "Bucket": "codeship-eb-docker",
+   "Key": ".dockercfg.json"
+  },
+  "Image": {
+    "Name": "zachflower/simple-web",
+    "Update": "true"
+  },
+  "Ports": [
+   {
+     "ContainerPort": "80"
+   }
+  ],
+  "Logging": "/var/log"
+}
