@@ -3,3 +3,5 @@
   image_name: zachflower/simple-web
   registry: https://index.docker.io/v1/
   encrypted_dockercfg_path: dockercfg.encrypted
+- service: awsdeployment
+  command: codeship_aws eb_deploy ./ codeship-elastic-beanstalk-demo production codeship-elastic-beanstalk-demo

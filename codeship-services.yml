@@ -2,3 +2,10 @@ app:
   build:
     image: zachflower/simple-web
     dockerfile_path: Dockerfile
+awsdeployment:
+  image: codeship/aws-deployment
+  encrypted_env_file: aws-deployment.env.encrypted
+  environment:
+    - AWS_DEFAULT_REGION=us-west-1
+  volumes:
+    - ./:./

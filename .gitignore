@@ -1,5 +1,6 @@
 codeship.aes
 .dockercfg.json
+aws-deployment.env
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
