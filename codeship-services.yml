@@ -1,0 +1,4 @@
+app:
+  build:
+    image: zachflower/simple-web
+    dockerfile_path: Dockerfile
