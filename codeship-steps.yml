@@ -4,4 +4,4 @@
   registry: https://index.docker.io/v1/
   encrypted_dockercfg_path: dockercfg.encrypted
 - service: awsdeployment
-  command: codeship_aws eb_deploy /deploy codeship-elastic-beanstalk-demo production codeship-elastic-beanstalk-demo
+  command: codeship_aws eb_deploy /deploy codeship-elastic-beanstalk-demo production elasticbeanstalk-us-west-2-998193773752
